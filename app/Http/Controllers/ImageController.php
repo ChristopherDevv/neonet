@@ -18,8 +18,8 @@ class ImageController extends Controller
         //imagne que se guarda en el servidor
         $serverImage = Image::make($image);
         //$serverImage->fit(1000,1000);
-        
-        $pathImage = storage_path('app/public/uploads') . '/' . $imageName;
+
+        $pathImage = public_path('uploads') . '/' . $imageName;
         //guarda la imagen una vez procesada
         $serverImage->save($pathImage);
 
