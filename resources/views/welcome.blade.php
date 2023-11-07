@@ -7,7 +7,7 @@
 @section('header')
 <div class="block relative h-full w-full md:min-h-[500px] xl:min-h-[400px] xl:h-[400px] overflow-hidden bg-cover bg-top xl:rounded-xl xl:mt-5">
     <span class="absolute top-0 left-0 w-full h-full bg-center bg-cover bg-[#070A0F] bgsection"></span>
-    <div class="absolute top-0 left-0 w-full h-full bg-center bg-cover opacity-20 scale-[180%] md:scale-100 z-20 flex items-center justify-center">
+    <div class="absolute top-0 left-0 w-full h-full bg-center bg-cover opacity-60 md:opacity-40 scale-[180%] md:scale-100 z-20 flex items-center justify-center">
         <img class="scale-150 -mt-32 md:-mt-10 md:scale-100 md:w-[1200px] md:h-[300px] " src="{{asset('img/header-bg.webp')}}" alt="header bg">
     </div>
     <div class="relative flex w-full h-full items-center justify-center z-20">

@@ -12,7 +12,7 @@
             </a>
             <div class="text-sm">
                 <p class="font-bold">{{auth()->user()->name}}</p>
-                <a href="{{route('post.index', auth()->user())}}"  class="text-xs opacity-70"><span>@</span>{{auth()->user()->name}}</a>
+                <a href="{{route('post.index', auth()->user())}}"  class="text-xs opacity-70"><span>@</span>{{auth()->user()->username}}</a>
             </div>
         </div>
         <div class="mt-5">
