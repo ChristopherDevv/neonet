@@ -60,7 +60,7 @@ class PostController extends Controller
             }
         }
 
-        $this->checkUnusedImages();
+        /* $this->checkUnusedImages(); */
 
         return redirect()->route('post.index', auth()->user());
     }

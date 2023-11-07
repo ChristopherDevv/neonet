@@ -70,8 +70,8 @@ class ProfileController extends Controller
         $user->description = $request->description;
         $user->save();
 
-        $this->checkUnsedImage();
-        $this->checkUnsedImageCover();
+       /*  $this->checkUnsedImage();
+        $this->checkUnsedImageCover(); */
 
         return redirect()->route('post.index', $user);
     }
